@@ -1,0 +1,12 @@
+<h1>Ask a question<h1>
+
+<div id= "you">
+  <%= @question %>
+  <p> <em>- You</em></p>
+</div>
+<div id ="coach">
+  <%= @answer %>
+  <p> <em>- Your coach</em></p>
+</div>
+
+<p id="back"><%= link_to "Another question ?", ask_path %></p>
